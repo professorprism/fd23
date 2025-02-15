@@ -6,8 +6,8 @@ import 'package:hydrated_bloc/hydrated_bloc.dart';
 // import 'package:path_provider/path_provider.dart';
 import 'package:equatable/equatable.dart';
 
-// Note: the example has NAMES paramters in the constructor.
-// We could switch to that at some point.
+// Note: some of this may be for BLoC instead of Cubit.
+// Try taking out the 'get props' and/or copyWith.
 
 class FDState  extends Equatable
 { 
